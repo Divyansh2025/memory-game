@@ -24,16 +24,8 @@ $(".btn").click(function () {
 })
 
 function checkAnswer(currentLevel) {
-
-
     if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
-
-        
-
-
         if (userClickedPattern.length === gamePattern.length) {
-
-
             setTimeout(function () {
                 nextSequence();
             }, 1000);
@@ -41,15 +33,8 @@ function checkAnswer(currentLevel) {
         }
 
     } else {
-
-      
-
         playSound("wrong");
-
-       
-
         alert("Your Score is "+ score);
-
         $("#Score-title").text("Game Over, Click Start Button to Restart");
 
 
@@ -58,16 +43,11 @@ function checkAnswer(currentLevel) {
 }
 
 
-
-
 function nextSequence() {
     userClickedPattern = [];
 
-
-
     score++;
     $("#Score-title").text("score " + score);
-
 
     var randomNumber = Math.floor(Math.random() * 16);
     var randomChosenNumber = buttomNumbers[randomNumber];
