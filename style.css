@@ -18,21 +18,21 @@ h1 {
 .btn {
 
   display: inline-block;
-  height: 150px;
-  width: 150px;
+  height: 88px;
+  width: 88px;
   background-color:#AEFEFF;
-  margin: 3px;
+  margin: 0px;
   
   
   border-radius: 15%;
   display: inline-block;
-  border:5px solid #35858B;
+  border:1px solid #35858B;
 
 
 }
 
 .pressed {
-  box-shadow: 0 0 20px #AEFEFF;
+  box-shadow: 0 0 1.25em #AEFEFF;
   background-color: #35858B;
 }
 
@@ -48,9 +48,9 @@ h1 {
    border-radius: 8px;
    color: #FFFFFF;
 font-family:'Indie Flower', sans-serif;
-   font-size: 19px;
+   font-size: 20px;
    font-weight: 100;
-   padding: 22px;
+   padding: 20px;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
@@ -70,4 +70,3 @@ font-family:'Indie Flower', sans-serif;
   border-radius: 8px;
   text-decoration: none;
 }
-
